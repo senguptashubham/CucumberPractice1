@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Amazon login scenario",
+        "description": "",
+        "id": "amazon-login-feature;amazon-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 786867200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already on Amazon page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_Amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 914264200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters email as sneha@gamil.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sneha@gamil.com",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_email(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87249200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password as Sneha@123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sneha@123",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon login feature",
+    "description": "",
+    "id": "amazon-login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
